@@ -1,16 +1,42 @@
-# React + Vite
+# FormFilling App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intuitive, interactive, and fully responsive multi-step form application built with React.js. This project focuses on modern user experience (UX) principles, client-side validation, and smooth transitions between multi-stage input workflows.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [https://sample-opal-kappa.vercel.app/](https://sample-opal-kappa.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Multi-Step Form Flow:** Breaks down complex data entry into clean, sequential steps to reduce form fatigue.
+- **Real-Time Validation:** Dynamic validation patterns ensuring clean user inputs before stepping forward.
+- **Responsive Web Design:** Fully optimized across desktop, tablet, and mobile breakpoints using clean, maintainable CSS layout strategies.
+- **State Preservation:** Keeps form input states intact when users navigate back and forth between different sections.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js (Functional components, Hooks)
+- **Styling:** CSS3
+- **Deployment:** Vercel
+
+---
+
+## 💻 Getting Started Locally
+
+Follow these steps to run the project on your local environment:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/abints47/Learning-Projects.git](https://github.com/abints47/Learning-Projects.git)
+cd Learning-Projects/form_filling
+
+
+form_filling/
+├── src/
+│   ├── components/     # Reusable form sections & input fields
+│   ├── App.jsx         # Main layout wrapper and state management
+│   ├── App.css         # Base styles & component specific definitions
+│   └── main.jsx        # App entry point
+└── package.json        # Build scripts and project dependencies
